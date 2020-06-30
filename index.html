@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>条件分岐 - if文</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="CardShelfVideoSlider-wrapper">
+        <div class="container">
+            <h3>Recommended</h3>
+            <!-- VideoSlider -->
+            <ul class="VideoSlider">
+                <li class="VideoSlider-Card">
+                    <div class="cover">
+                        <img src="image/Video01.png">
+                        <div class="playIcon"><img src="image/IconButton.png"></div>
+                        <div class="time"><p>1:43</p></div>
+                    </div>
+                    <p class="caption">Stream hours of classic travel shows on Lonely Planet TV</p>
+                </li>
+                <li class="VideoSlider-Card">
+                    <div class="cover">
+                        <img src="image/Video02.png">
+                        <div class="playIcon"><img src="image/IconButton.png"></div>
+                        <div class="time"><p>4:02</p></div>
+                    </div>
+                    <p class="caption">Exploring Portugal's most remote corners</p>
+                </li>
+                <li class="VideoSlider-Card">
+                    <div class="cover">
+                        <img src="image/Video03.png">
+                        <div class="playIcon"><img src="image/IconButton.png"></div>
+                        <div class="time"><p>2:03</p></div>
+                    </div>
+                    <p class="caption">These Caribbean countries are reopening for tourists this month</p>
+                </li>
+                <li class="VideoSlider-Card">
+                    <div class="cover">
+                        <img src="image/Video04.png">
+                        <div class="playIcon"><img src="image/IconButton.png"></div>
+                        <div class="time"><p>6:19</p></div>
+                    </div>
+                    <p class="caption">5 reasons why Colombia should be your next travel destination (10344956)</p>
+                </li>
+            </ul>
+            <h3>More like this</h3>
+            <!-- VideoSlider -->
+            <ul class="VideoSlider">
+                <li class="VideoSlider-Card">
+                    <div class="cover">
+                        <img src="image/Video05.png">
+                        <div class="playIcon"><img src="image/IconButton.png"></div>
+                        <div class="time"><p>7:06</p></div>
+                    </div>
+                    <p class="caption">The Tower of London could lose its iconic Beefeaters</p>
+                </li>
+                <li class="VideoSlider-Card">
+                    <div class="cover">
+                        <img src="image/Video06.png">
+                        <div class="playIcon"><img src="image/IconButton.png"></div>
+                        <div class="time"><p>3:34</p></div>
+                    </div>
+                    <p class="caption">Sleep in a geodesic dome at a new glamping spot in Utah</p>
+                </li>
+                <li class="VideoSlider-Card">
+                    <div class="cover">
+                        <img src="image/Video07.png">
+                        <div class="playIcon"><img src="image/IconButton.png"></div>
+                        <div class="time"><p>4:36</p></div>
+                    </div>
+                    <p class="caption">EU set to lift travel ban on 14 countries but US not included yet</p>
+                </li>
+                <li class="VideoSlider-Card">
+                    <div class="cover">
+                        <img src="image/Video08.png">
+                        <div class="playIcon"><img src="image/IconButton.png"></div>
+                        <div class="time"><p>4:48</p></div>
+                    </div>
+                    <p class="caption">These Caribbean countries are reopening for tourists this month</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script>
+    const level = 5;
+    if (level > 4) {
+        console.log ("Recommended");
+    }
+    if (level > 10) {
+        console.log ("Learning to dance in a Croatian fairytale castle");
+    }
+    if (level > 3) {
+        console.log ("Slavonia: Croatia's best-kept secret");
+    }
+    if (level > 2) {
+        console.log ("Discover Zadar and beyond");
+    }
+</script>
+
+</body>
+</html>
